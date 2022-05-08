@@ -1,14 +1,19 @@
 <template>
     <div class="conversor">
+        <h2>{{moedaA}} --> {{moedaB}}</h2>
 
 
-        
     </div>
 </template>
 
 
 <script>
-export default{}
+import { propsToAttrMap } from "@vue/shared";
+
+export default{
+    name: "conversor" 
+    (property) ['moedaA', 'moedaB']
+}
 
 </script>
 

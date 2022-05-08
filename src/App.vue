@@ -1,13 +1,17 @@
 <template>
-<div id="app" ></div>
+<div id="app" >
+
+  <Conversor/>
+
+</div>
 </template>
 
 <script>
-
-
+import conversor from ('./components/Conversor.vue')
 export default {
   name: 'App',
   components: {
+conversor
   }
 }
 </script>
