@@ -1,6 +1,6 @@
 <template>
     <div class="conversor">
-        <h2>{{moedaA}} --> {{moedaB}}</h2>
+        <h2> {{moedaA}} --> {{moedaB}} </h2>
 
 
     </div>
@@ -12,7 +12,7 @@ import { propsToAttrMap } from "@vue/shared";
 
 export default{
     name: "conversor" 
-    (property) ['moedaA', 'moedaB']
+    props: ['foo']
 }
 
 </script>

@@ -1,18 +1,17 @@
 <template>
-<div id="app" >
-
-  <Conversor/>
-
-</div>
+<div id="app" ></div>
+<Conversor moeda-a="usd" moeda-b="brl" />
 </template>
 
 <script>
-import conversor from ('./components/Conversor.vue')
+import conversor from "./components/Conversor.vue";
+import Conversor from "./components/Conversor.vue";
 export default {
   name: 'App',
   components: {
-conversor
-  }
+    conversor,
+    Conversor
+}
 }
 </script>
 
